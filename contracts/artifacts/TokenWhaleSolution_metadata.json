@@ -1,0 +1,55 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve2",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenWhaleSolution.sol": "TokenWhaleSolution"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TokenWhaleSolution.sol": {
+			"keccak256": "0x90397441c1c08ae7793e3a59ef213ec263f5671993feb48a7860764572d46236",
+			"urls": [
+				"bzzr://f02e1b3a62ae61e2c7e80dceb41bcf6026e5ac7e99aee67cf802ae636e830494"
+			]
+		}
+	},
+	"version": 1
+}

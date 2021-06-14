@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "register",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "n",
+						"type": "uint8"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "GuessTheNewNumberChallenge",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "blockNumGuess",
+						"type": "uint256"
+					},
+					{
+						"name": "thisNowGuess",
+						"type": "uint256"
+					}
+				],
+				"name": "bruteForce",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GuessTheNewNumberChallenge.sol": "GuessTheNewNumberChallengeS"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GuessTheNewNumberChallenge.sol": {
+			"keccak256": "0xff4d3e4e478da10950af5041b84ae44e106fcbf72a893a109aef6e53f787cf74",
+			"urls": [
+				"bzzr://9e039cd81cc4e44f0ede14bdc2822b1a7d4c950d84467b5c37faa19ef3e62aa9"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBytes32ArrayForInput",
+				"outputs": [
+					{
+						"name": "b32Arr",
+						"type": "bytes32[3]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "nickname",
+						"type": "bytes32"
+					}
+				],
+				"name": "setNickname",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "nicknameOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CaptureTheEther.sol": "CaptureTheEther"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CaptureTheEther.sol": {
+			"keccak256": "0xff68dba121142cd9bb73554b6d29db039548bbc54d858643b92e94d63e49f967",
+			"urls": [
+				"bzzr://c9aa4d6a534a45600c81dcc6b2711f1df2dc5361e8c28c943fbd9464925cce4e"
+			]
+		}
+	},
+	"version": 1
+}

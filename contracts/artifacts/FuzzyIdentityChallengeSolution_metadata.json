@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FuzzyIdentityChallenge.sol": "FuzzyIdentityChallengeSolution"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FuzzyIdentityChallenge.sol": {
+			"keccak256": "0xaa05f778c0fc32a9cf3a6748b8a547f5dbf00eddea7f3e6cabbff55746ac5b0b",
+			"urls": [
+				"bzzr://847205ccdf8f4bb52442950fa12234e202fe317c707f2c377fe0cb1315e27608"
+			]
+		}
+	},
+	"version": 1
+}
